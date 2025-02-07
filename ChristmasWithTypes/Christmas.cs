@@ -5,7 +5,7 @@ namespace ChristmasWithTypes
     {
         public string[] Presents;
         public string Santa { get; set; }
-        public int? TreeHeight = null; 
+        public int? TreeHeight { get; set; } = null; 
 
         public enum Day
         {
